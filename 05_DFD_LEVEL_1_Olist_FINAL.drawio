@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="DFD Level 1" id="DFD_Level_1">
+    <mxGraphModel dx="1440" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1020" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="olist" parent="1" style="rounded=0;whiteSpace=nowrap;html=1;fillColor=#FDF1E4;strokeColor=#C98B3A;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#222222;" value="Nguồn dữ liệu&lt;br&gt;Olist" vertex="1">
+          <mxGeometry height="80" width="170" x="15" y="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff" parent="1" style="rounded=0;whiteSpace=nowrap;html=1;fillColor=#FDF1E4;strokeColor=#C98B3A;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#222222;" value="Nhân viên&lt;br&gt;vận hành" vertex="1">
+          <mxGeometry height="90" width="170" x="915" y="835" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1" parent="1" style="ellipse;whiteSpace=nowrap;html=1;fillColor=#E8F1FB;strokeColor=#5B8DB8;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="1.0&lt;br&gt;Tiếp nhận và kiểm tra&lt;br&gt;dữ liệu đơn hàng" vertex="1">
+          <mxGeometry height="100" width="190" x="305" y="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2" parent="1" style="ellipse;whiteSpace=nowrap;html=1;fillColor=#E8F1FB;strokeColor=#5B8DB8;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="2.0&lt;br&gt;Xác định giai đoạn&lt;br&gt;và theo dõi tiến độ&lt;br&gt;đơn hàng" vertex="1">
+          <mxGeometry height="100" width="190" x="605" y="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3" parent="1" style="ellipse;whiteSpace=nowrap;html=1;fillColor=#E8F1FB;strokeColor=#5B8DB8;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="3.0&lt;br&gt;Dự đoán nguy cơ&lt;br&gt;giao trễ" vertex="1">
+          <mxGeometry height="100" width="190" x="905" y="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4" parent="1" style="ellipse;whiteSpace=nowrap;html=1;fillColor=#E8F1FB;strokeColor=#5B8DB8;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="4.0&lt;br&gt;Đánh giá rủi ro,&lt;br&gt;cập nhật cảnh báo&lt;br&gt;và xếp mức ưu tiên" vertex="1">
+          <mxGeometry height="100" width="190" x="905" y="330" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5" parent="1" style="ellipse;whiteSpace=nowrap;html=1;fillColor=#E8F1FB;strokeColor=#5B8DB8;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="5.0&lt;br&gt;Hiển thị danh sách&lt;br&gt;cảnh báo" vertex="1">
+          <mxGeometry height="100" width="190" x="555" y="570" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6" parent="1" style="ellipse;whiteSpace=nowrap;html=1;fillColor=#E8F1FB;strokeColor=#5B8DB8;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="6.0&lt;br&gt;Ghi nhận&lt;br&gt;xử lý" vertex="1">
+          <mxGeometry height="100" width="190" x="1255" y="570" as="geometry"/>
+        </mxCell>
+        <mxCell id="d1" parent="1" style="shape=partialRectangle;whiteSpace=nowrap;html=1;left=0;right=0;fillColor=#F3F3F3;strokeColor=#333333;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="D1 | Dữ liệu đơn hàng" vertex="1">
+          <mxGeometry height="44" width="250" x="425" y="358" as="geometry"/>
+        </mxCell>
+        <mxCell id="d2" parent="1" style="shape=partialRectangle;whiteSpace=nowrap;html=1;left=0;right=0;fillColor=#F3F3F3;strokeColor=#333333;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="D2 | Mô hình và ngưỡng" vertex="1">
+          <mxGeometry height="44" width="250" x="1205" y="108" as="geometry"/>
+        </mxCell>
+        <mxCell id="d3" parent="1" style="shape=partialRectangle;whiteSpace=nowrap;html=1;left=0;right=0;fillColor=#F3F3F3;strokeColor=#333333;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="D3 | Dữ liệu cảnh báo" vertex="1">
+          <mxGeometry height="44" width="250" x="875" y="598" as="geometry"/>
+        </mxCell>
+        <mxCell id="d4" parent="1" style="shape=partialRectangle;whiteSpace=nowrap;html=1;left=0;right=0;fillColor=#F3F3F3;strokeColor=#333333;strokeWidth=1.5;fontSize=12;fontStyle=1;fontColor=#222222;" value="D4 | Lịch sử xử lý" vertex="1">
+          <mxGeometry height="44" width="250" x="875" y="718" as="geometry"/>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=1;whiteSpace=nowrap;align=center;verticalAlign=middle;fontSize=11;fontColor=#444444;" value="Ghi chú và quy ước dữ liệu:&lt;br&gt;D1: mã đơn, thông tin đơn hàng, ngày giao dự kiến ban đầu, trạng thái đơn hàng, các mốc tiến độ và trạng thái kiểm tra hợp lệ; không lưu trạng thái cảnh báo/xử lý.&lt;br&gt;D2: chỉ đọc trong chu kỳ giám sát; mô hình dự đoán và các ngưỡng được chuẩn bị trước từ dữ liệu lịch sử.&lt;br&gt;D3: mã cảnh báo, mã đơn tham chiếu, mức rủi ro, mức ưu tiên, trạng thái cảnh báo (Mở/Đóng) và trạng thái xử lý là hai trường riêng biệt.&lt;br&gt;Giá trị mặc định trạng thái xử lý của cảnh báo mới chưa được quy định trong hồ sơ; cần xác nhận.&lt;br&gt;Đối chiếu tại 4.0: đơn đã giao thì xác định đúng hạn/trễ theo ngày giao dự kiến ban đầu; nếu có cảnh báo, đối chiếu mức rủi ro đã lưu trong D3 với kết quả giao thực tế.&lt;br&gt;Đơn hủy: ghi nhận kết quả hủy, đóng cảnh báo còn mở; không đối chiếu ngày giao thực tế. Không lưu lịch sử xác suất dự đoán của mọi đơn.&lt;br&gt;D4: mã cảnh báo tham chiếu, nguyên nhân, hành động, kết quả và lịch sử xử lý cần thiết." vertex="1">
+          <mxGeometry height="200" width="1400" x="50" y="800" as="geometry"/>
+        </mxCell>
+        <mxCell id="f01" edge="1" parent="1" source="olist" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p1" value="Dữ liệu đơn hàng&lt;br&gt;và trạng thái">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1.0" y="-36.0" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f02" edge="1" parent="1" source="p1" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.7105;exitY=0.9535;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0600;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" target="d1" value="Dữ liệu đơn hàng chuẩn hóa&lt;br&gt;và trạng thái kiểm tra dữ liệu">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-78" y="3.3" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f03" edge="1" parent="1" source="d1" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.9400;exitY=0.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2895;entryY=0.9535;entryDx=0;entryDy=0;entryPerimeter=0;" target="p2" value="Thông tin đơn hàng&lt;br&gt;và mốc trạng thái">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="3.3" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f04" edge="1" parent="1" source="p2" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p3" value="Đặc trưng tiến độ&lt;br&gt;đơn hàng">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-32" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f05" edge="1" parent="1" source="d2" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p3" value="Mô hình&lt;br&gt;dự đoán">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-32" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f06" edge="1" parent="1" source="p3" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.5000;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p4" value="Xác suất&lt;br&gt;giao trễ">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f07" edge="1" parent="1" source="p2" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.6842;exitY=0.9648;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0417;entryY=0.3000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p4" value="Tiến độ, thời gian đến hạn&lt;br&gt;và kết quả cuối của đơn">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="93" y="-25.2" as="offset"/>
+            <Array as="points">
+              <mxPoint x="735" y="360"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f08" edge="1" parent="1" source="d2" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.1800;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9899;entryY=0.4000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p4" value="Ngưỡng phân loại&lt;br&gt;rủi ro và cảnh báo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="-69.5" as="offset"/>
+            <Array as="points">
+              <mxPoint x="1250" y="370"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f09" edge="1" parent="1" source="d3" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.3400;exitY=0.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.2895;entryY=0.9535;entryDx=0;entryDy=0;entryPerimeter=0;" target="p4" value="Bản ghi cảnh báo&lt;br&gt;đang mở và mức rủi ro&lt;br&gt;đã lưu (nếu có)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-55" y="-1.7" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f10" edge="1" parent="1" source="p4" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.7105;exitY=0.9535;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6600;entryY=0.0000;entryDx=0;entryDy=0;entryPerimeter=0;" target="d3" value="Mã cảnh báo, mã đơn tham chiếu;&lt;br&gt;mức rủi ro, mức ưu tiên;&lt;br&gt;trạng thái cảnh báo (Mở/Đóng);&lt;br&gt;trạng thái xử lý (riêng biệt)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80.0" y="-1.7" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f11" edge="1" parent="1" source="d1" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.2200;exitY=1.0000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0101;entryY=0.4000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p5" value="Thông tin đơn hàng cần thiết:&lt;br&gt;mã đơn, trạng thái/giai đoạn,&lt;br&gt;mốc thời gian và ngày giao&lt;br&gt;dự kiến ban đầu">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-97.0" y="-24.5" as="offset"/>
+            <Array as="points">
+              <mxPoint x="480" y="610"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f12" edge="1" parent="1" source="d3" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p5" value="Danh sách cảnh báo,&lt;br&gt;mã đơn, mức ưu tiên,&lt;br&gt;trạng thái cảnh báo và&lt;br&gt;trạng thái xử lý">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-32" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f13" edge="1" parent="1" source="d4" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.7632;entryY=0.9251;entryDx=0;entryDy=0;entryPerimeter=0;" target="p5" value="Lịch sử xử lý liên quan&lt;br&gt;(mã cảnh báo tham chiếu)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="41.2" y="-28" as="offset"/>
+            <Array as="points">
+              <mxPoint x="700" y="740"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f14" edge="1" parent="1" source="staff" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.0000;exitY=0.6667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1842;entryY=0.8877;entryDx=0;entryDy=0;entryPerimeter=0;" target="p5" value="Yêu cầu tra cứu">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="117.6" y="19" as="offset"/>
+            <Array as="points">
+              <mxPoint x="590" y="895"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f15" edge="1" parent="1" source="p5" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.3947;exitY=0.9888;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.2778;entryDx=0;entryDy=0;entryPerimeter=0;" target="staff" value="Danh sách cảnh báo theo mức ưu tiên,&lt;br&gt;tình trạng cảnh báo/xử lý,&lt;br&gt;thông tin đơn hàng cần thiết&lt;br&gt;và lịch sử xử lý liên quan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="103.1" y="-38.0" as="offset"/>
+            <Array as="points">
+              <mxPoint x="630" y="860"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f16" edge="1" parent="1" source="d3" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=1.0000;exitY=0.2273;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0146;entryY=0.3800;entryDx=0;entryDy=0;entryPerimeter=0;" target="p6" value="Thông tin cảnh báo&lt;br&gt;đang được xử lý&lt;br&gt;(mã cảnh báo và hai trạng thái)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-0.4" y="-30" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f17" edge="1" parent="1" source="p6" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.0146;exitY=0.6200;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.7727;entryDx=0;entryDy=0;entryPerimeter=0;" target="d3" value="Cập nhật trạng thái cảnh báo&lt;br&gt;và trạng thái xử lý (hai trường&lt;br&gt;riêng biệt, khi có kết quả phù hợp)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-0.4" y="28" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f18" edge="1" parent="1" source="p6" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.2368;exitY=0.9251;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" target="d4" value="Mã cảnh báo tham chiếu;&lt;br&gt;nguyên nhân, hành động&lt;br&gt;và kết quả xử lý">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-39.2" y="-28" as="offset"/>
+            <Array as="points">
+              <mxPoint x="1300" y="740"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f19" edge="1" parent="1" source="staff" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5000;entryY=1.0000;entryDx=0;entryDy=0;entryPerimeter=0;" target="p6" value="Mã cảnh báo đã chọn,&lt;br&gt;kết quả xác minh&lt;br&gt;và xử lý">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-104.5" y="-40.0" as="offset"/>
+            <Array as="points">
+              <mxPoint x="1350" y="880"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f20" edge="1" parent="1" source="p4" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=11;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.9583;exitY=0.7000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.8333;entryDx=0;entryDy=0;entryPerimeter=0;" target="staff" value="Thông báo cảnh báo mới&lt;br&gt;hoặc mức rủi ro tăng">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-83" y="-156" as="offset"/>
+            <Array as="points">
+              <mxPoint x="1475" y="400"/>
+              <mxPoint x="1475" y="910"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

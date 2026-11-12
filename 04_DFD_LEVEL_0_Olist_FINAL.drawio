@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="DFD Level 0" id="DFD_Level_0">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1140" pageHeight="300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="olist" value="Nguồn dữ liệu&lt;br&gt;Olist" style="rounded=0;whiteSpace=nowrap;html=1;fillColor=#FDF1E4;strokeColor=#C98B3A;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="30" y="110" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p0" value="0&lt;br&gt;Hệ thống giám sát&lt;br&gt;đơn hàng Olist" style="ellipse;whiteSpace=nowrap;html=1;fillColor=#E8F1FB;strokeColor=#5B8DB8;strokeWidth=1.5;fontSize=14;fontStyle=1;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="425" y="50" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nv" value="Nhân viên&lt;br&gt;vận hành" style="rounded=0;whiteSpace=nowrap;html=1;fillColor=#FDF1E4;strokeColor=#C98B3A;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#222222;" vertex="1" parent="1">
+          <mxGeometry x="940" y="70" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" value="Dữ liệu đơn hàng&lt;br&gt;và trạng thái" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=1.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="olist" target="p0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-0.5" y="-32.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2" value="Cảnh báo, danh sách ưu tiên&lt;br&gt;và thông tin đơn hàng" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.9000;exitY=0.2000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.0000;entryY=0.1250;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p0" target="nv">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4.0" y="-32.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3" value="Yêu cầu tra cứu" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.0000;exitY=0.5000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.0000;entryY=0.5000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nv" target="p0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9.5" y="-16.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4" value="Kết quả xác minh&lt;br&gt;và xử lý" style="html=1;rounded=0;whiteSpace=nowrap;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#222222;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#333333;exitX=0.0000;exitY=0.8750;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.9000;entryY=0.8000;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nv" target="p0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4.0" y="18.0" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
